@@ -3,7 +3,7 @@ import math
 
 pygame.init()
 
-WIDTH, HEIGHT = 770, 770
+WIDTH, HEIGHT = 1000, 770
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Planet Simulation")
 
@@ -56,7 +56,7 @@ class Planet:
         pygame.draw.circle(win, self.color, (x, y), self.radius)
 
         if not self.sun:
-            distance_text = FONT.render(f"{round((self.distance_to_sun / 1000), 1)} km", 1, WHITE)
+            distance_text = FONT.render(f"Distance: {round((self.distance_to_sun / 1000), 1)} km", 2, (99, 252, 45))
             win.blit(distance_text, (x - distance_text.get_width() / 2, y - distance_text.get_height() / 2))
 
 
