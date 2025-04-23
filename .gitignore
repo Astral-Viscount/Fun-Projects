@@ -1,0 +1,25 @@
+# Ignore all .exe files
+*.exe
+
+# Ignore all .ipynb files
+*.ipynb
+
+# Ignore all .pdf files
+*.pdf
+
+# Ignore all .pdf files
+*.json
+
+# Other ignored files and directories
+/node_modules
+/.pytest_cache
+/.vscode
+/.vs
+/bin
+/obj
+/Problems
+test.py
+*.obj
+
+# Won't ignore these .exe files
+# !special.exe
