@@ -21,5 +21,8 @@
 test.py
 *.obj
 
+#Ignore tempprary file
+tempCodeRunnerFile.py
+
 # Won't ignore these .exe files
 # !special.exe
