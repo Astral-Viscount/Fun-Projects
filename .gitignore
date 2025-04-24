@@ -10,6 +10,9 @@
 # Ignore all .pdf files
 *.json
 
+#Ignoring bat files
+*.bat
+
 # Other ignored files and directories
 /node_modules
 /.pytest_cache
@@ -23,6 +26,9 @@ test.py
 
 #Ignore tempprary file
 tempCodeRunnerFile.py
+
+# Ignoring Verilog test files
+Verilog-Projects\and_gate\and_test
 
 # Won't ignore these .exe files
 # !special.exe
