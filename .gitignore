@@ -23,9 +23,14 @@
 /Problems
 test.py
 *.obj
+*.vvp
+*.vcd
 
 #Ignore tempprary file
 tempCodeRunnerFile.py
 
 # Won't ignore these .exe files
 # !special.exe
+
+# Ignoring Verilog test files
+Verilog-Projects/and_gate/and_test
