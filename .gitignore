@@ -29,6 +29,3 @@ tempCodeRunnerFile.py
 
 # Won't ignore these .exe files
 # !special.exe
-
-# Ignoring Verilog test files
-Verilog-Projects/and_gate/and_test
