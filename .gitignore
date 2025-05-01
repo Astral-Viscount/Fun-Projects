@@ -20,7 +20,7 @@
 /.vs
 /bin
 /obj
-test.py
+/Testing
 *.obj
 *.vvp
 *.vcd
