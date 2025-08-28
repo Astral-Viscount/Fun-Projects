@@ -1,9 +1,6 @@
 # Ignore all .exe files
 *.exe
 
-# Ignore all .ipynb files
-*.ipynb
-
 # Ignore all .pdf files
 *.pdf
 
@@ -34,3 +31,6 @@ tempCodeRunnerFile.py
 # Ignoring Verilog test files
 Verilog-Projects/and_gate/and_test
 /Coding Challenge
+
+jupyter/.jupyter
+jupyter/.ipynb_checkpoints
