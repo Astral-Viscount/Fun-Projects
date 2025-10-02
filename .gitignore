@@ -21,6 +21,7 @@
 *.obj
 *.vvp
 *.vcd
+\venv
 
 #Ignore tempprary file
 tempCodeRunnerFile.py
